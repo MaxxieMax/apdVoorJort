@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebase: {
+      apiKey: "AIzaSyDdAFkAGN0MzYs0rtObGlWwe4pfqE7zajM",
+      authDomain: "asterix-en-obelix.firebaseapp.com",
+      databaseURL: "https://asterix-en-obelix.firebaseio.com",
+      projectId: "asterix-en-obelix",
+      storageBucket: "asterix-en-obelix.appspot.com",
+      messagingSenderId: "329929407256",
+      appId: "1:329929407256:web:73651af9e05f0b83973c6d",
+      measurementId: "G-QR4T6WZ1LN"
+  }
 };
 
 /*
